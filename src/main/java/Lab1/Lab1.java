@@ -1,8 +1,9 @@
+package Lab1;
 
 public class Lab1 {
 
 
-     static class TaskOne{
+     public static class TaskOne{
 
         public static int n;
 
@@ -17,9 +18,9 @@ public class Lab1 {
         }
 
 
-        public double Dobby(){
-            double p = 1;
-            for (double i = n; i > 1; i--){
+        public float Dobby(){
+            float p = 1;
+            for (float i = n; i > 1f; i--){
 
                 p*= (i-1)/i;
             }
@@ -30,7 +31,7 @@ public class Lab1 {
     }
 
 
-    static class TaskTwo{
+    public static class TaskTwo{
 
         public static int n;
 
@@ -46,9 +47,9 @@ public class Lab1 {
         }
 
 
-        public double Dobby(){
-            double p = 1;
-            for (double i = n; i > 0; i--){
+        public float Dobby(){
+            float p = 1f;
+            for (float i = n; i > 0f; i--){
 
                 p*= Math.pow(2, i-1)/Math.pow(2, i);
             }
@@ -57,10 +58,4 @@ public class Lab1 {
         }
 
     }
-
-
-
-
-
-
 }
