@@ -61,19 +61,6 @@ public class Lab1 {
 
 
 
-    public static void main(String[] args) {
 
-        TaskOne t = new TaskOne();
-        t.n = 10000;
-
-        TaskTwo two = new TaskTwo();
-        two.n = 1000;
-
-        System.out.println("p1 " + t.Dob());
-        System.out.println("p2 " + t.Dobby());
-
-        System.out.println("p1 " + two.Dob());
-        System.out.println("p2 " + two.Dobby());
-    }
 
 }
